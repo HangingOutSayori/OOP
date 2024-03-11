@@ -1,4 +1,4 @@
-#include"Header.h"
+#include"header.h"
 
 namespace jija {
     std::vector<int> map(const std::vector<int>& numbers, std::function<int(int)> func) {
