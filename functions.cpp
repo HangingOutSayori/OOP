@@ -1,6 +1,6 @@
 #include"header.h"
 
-namespace jija {
+namespace test {
     std::vector<int> map(const std::vector<int>& numbers, std::function<int(int)> func) {
         if (numbers.empty()) {
             throw std::invalid_argument("Empty vector");
@@ -47,7 +47,7 @@ namespace jija {
 }
    
     int main() {
-        jija::tests();
+        test::tests();
         std::cout << "tests rabotaet";
         return 0;
     }
