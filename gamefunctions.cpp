@@ -4,15 +4,15 @@ namespace game
 {
 	std::string get_name()
 	{
-		std::string Name;
-		std::cin >> Name;
-		return Name;
+		std::string name;
+		std::cin >> name;
+		return name;
 	}
 	std::string get_answ()
 	{
-		std::string Answer;
-		std::cin >> Answer;
-		return Answer;
+		std::string answer;
+		std::cin >> answer;
+		return answer;
 	}
 	int rand_int(int start, int end)
 	{
