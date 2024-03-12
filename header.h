@@ -4,7 +4,7 @@
 #include <stdexcept>
 #include <cassert>
 
-namespace jija {
+namespace test {
 	std::vector<int> map(const std::vector<int>& numbers, std::function<int(int)> func);
 	std::vector<int> filter(const std::vector<int>& numbers, std::function<bool(int)> func);
 	bool is_prime(int num);
