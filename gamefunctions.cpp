@@ -1,4 +1,4 @@
-#include "igra.h"
+#include "game.h"
 #include<random>
 namespace game
 {
