@@ -1,5 +1,5 @@
 #include<windows.h>
-#include"igra.h"
+#include"game.h"
 int main()
 {
 	SetConsoleCP(1251);
